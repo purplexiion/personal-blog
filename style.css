@@ -1,0 +1,35 @@
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.blog-post {
+  margin-bottom: 30px;
+}
+
+.blog-post-title {
+  font-size: 32px;
+  margin-top: 0;
+}
+
+.blog-post-meta {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.blog-post-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+  .blog-post-title {
+    font-size: 24px;
+  }
+
+  .blog-post-content {
+    font-size: 14px;
+  }
+}
